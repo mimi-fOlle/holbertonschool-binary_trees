@@ -24,7 +24,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
  * Return: value + 1
  */
 
-int level_match (int a, int b)
+int level_match(int a, int b)
 {
 	if (a == b)
 		return (a + 1);
