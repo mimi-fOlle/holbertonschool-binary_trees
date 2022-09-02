@@ -26,6 +26,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
   * current_level - Prints the current level
   * @root: A pointer of root
   * @level: The level
+  * @func: A pointer to a function to call for each node
   *
   * Return: nothing
   */
